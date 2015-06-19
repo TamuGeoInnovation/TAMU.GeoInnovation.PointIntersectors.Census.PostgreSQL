@@ -1,0 +1,4 @@
+C:\DevBuild\Tamu\GeoInnovation\PointIntersectors\PointIntersectors.Census.PostgreSql\build\1.0.0\release\TAMU.GeoInnovation.PointIntersectors.Census.PostgreSQL.dll
+C:\DevSource\Tamu\GeoInnovation\PointIntersectors\PointIntersectors.Census.PostgreSQL\src\Main\obj\Release\PointIntersectors.Census.PostgreSQL.csprojResolveAssemblyReference.cache
+C:\DevSource\Tamu\GeoInnovation\PointIntersectors\PointIntersectors.Census.PostgreSQL\src\Main\obj\Release\TAMU.GeoInnovation.PointIntersectors.Census.PostgreSQL.dll
+C:\DevSource\Tamu\GeoInnovation\PointIntersectors\PointIntersectors.Census.PostgreSQL\build\1.0.0\AnyCPU\release\TAMU.GeoInnovation.PointIntersectors.Census.PostgreSQL.dll
