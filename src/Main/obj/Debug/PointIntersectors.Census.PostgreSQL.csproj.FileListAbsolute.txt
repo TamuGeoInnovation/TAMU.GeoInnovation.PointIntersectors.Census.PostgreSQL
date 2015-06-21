@@ -1,5 +1,0 @@
-C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Common\PointIntersectors.Census.PostgreSQL\build\v1.0\bin\AnyCPU\debug\TAMU.GeoInnovation.PointIntersectors.Census.PostgreSQL.dll
-C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Common\PointIntersectors.Census.PostgreSQL\build\v1.0\bin\AnyCPU\debug\TAMU.GeoInnovation.PointIntersectors.Census.PostgreSQL.pdb
-C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Common\PointIntersectors.Census.PostgreSQL\src\obj\Debug\PointIntersectors.Census.PostgreSQL.csprojResolveAssemblyReference.cache
-C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Common\PointIntersectors.Census.PostgreSQL\src\obj\Debug\TAMU.GeoInnovation.PointIntersectors.Census.PostgreSQL.dll
-C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Common\PointIntersectors.Census.PostgreSQL\src\obj\Debug\TAMU.GeoInnovation.PointIntersectors.Census.PostgreSQL.pdb
