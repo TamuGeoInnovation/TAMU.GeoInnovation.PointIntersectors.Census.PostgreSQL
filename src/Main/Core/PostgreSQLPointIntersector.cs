@@ -8,7 +8,7 @@ using USC.GISResearchLab.Common.Utils.Databases;
 using TAMU.GeoInnovation.PointIntersectors.Census.PointIntersecters.AbstractClasses;
 using TAMU.GeoInnovation.PointIntersectors.Census.OutputData.CensusRecords;
 
-namespace TAMU.GeoInnovation.PointIntersectors.Census.MySql.Core
+namespace TAMU.GeoInnovation.PointIntersectors.Census.PostgreSQL.Core
 {
 
     [Serializable]
@@ -49,7 +49,7 @@ namespace TAMU.GeoInnovation.PointIntersectors.Census.MySql.Core
                     sql += " FROM ";
                     sql += "" + table + "";
                     sql += " WHERE ";
-                    sql += "  Contains(" + shapeField + ", GeomFromText('POINT(" + longitude + " " + latitude + ")')) = 1";
+                    sql += "  ST_Contains(" + shapeField + ", st_geomfromtext('POINT(" + longitude + " " + latitude + ")'))";
                     //sql += "  Contains(" + shapeField + ", GeomFromText(?test)) = 1";
 
                     SqlCommand cmd = new SqlCommand(sql);
