@@ -37,6 +37,9 @@ namespace TAMU.GeoInnovation.PointIntersectors.Census.PostgreSQL.Core
             ret.Created = DateTime.Now;
             DateTime start = DateTime.Now;
 
+            ret.InputLatitude = latitude;
+            ret.InputLongitude = longitude;
+
             try
             {
                 if ((latitude <= 90 && latitude >= -90) && (longitude <= 180 && longitude >= -180))
