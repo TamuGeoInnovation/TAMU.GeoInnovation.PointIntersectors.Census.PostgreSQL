@@ -25,7 +25,11 @@ namespace TAMU.GeoInnovation.PointIntersectors.Census.PostgreSQL.Census1990
             : base(version, blockFilesQueryManager, stateFilesQueryManager, countryFilesQueryManager)
         { }
 
-       
+        public PostgreSQLCensus1990PointIntersector(Version version, IQueryManager blockFilesQueryManager, IQueryManager stateFilesQueryManager, IQueryManager countryFilesQueryManager)
+            : base(version, blockFilesQueryManager, stateFilesQueryManager, countryFilesQueryManager)
+        { }
+
+
         public override DataTable GetRecordAsDataTable(double longitude, double latitude, string state, string county, double version)
         {
             DataTable ret = null;

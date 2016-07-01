@@ -27,6 +27,10 @@ namespace TAMU.GeoInnovation.PointIntersectors.Census.PostgreSQL.Census2010
             : base(version, blockFilesQueryManager, stateFilesQueryManager, countryFilesQueryManager)
         { }
 
+        public PostgreSQLCensus2010PointIntersector(Version version, IQueryManager blockFilesQueryManager, IQueryManager stateFilesQueryManager, IQueryManager countryFilesQueryManager)
+            : base(version, blockFilesQueryManager, stateFilesQueryManager, countryFilesQueryManager)
+        { }
+
 
         public override string GetStateFips(double longitude, double latitude)
         {
