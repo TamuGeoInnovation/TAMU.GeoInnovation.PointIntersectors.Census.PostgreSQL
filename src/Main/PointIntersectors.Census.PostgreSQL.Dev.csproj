@@ -108,10 +108,6 @@
     <Reference Include="System.Web.Services" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="Tamu.GeoInnovation.PointIntersectors.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\PointIntersectors.Core\src\Main\obj\x86\Debug\Tamu.GeoInnovation.PointIntersectors.Core.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Census1990\PostgreSQLCensus1990PointIntersector.cs" />
@@ -179,6 +175,10 @@
       <Project>{5328FADB-9D7C-410A-877E-F03E08367D9C}</Project>
       <Name>PointIntersectors.Census.Dev</Name>
       <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\PointIntersectors.Core\src\Main\PointIntersectors.Core.Dev.csproj">
+      <Project>{7e591bbb-913a-4fd9-9a8c-9fcf4a8e4c99}</Project>
+      <Name>PointIntersectors.Core.Dev</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
