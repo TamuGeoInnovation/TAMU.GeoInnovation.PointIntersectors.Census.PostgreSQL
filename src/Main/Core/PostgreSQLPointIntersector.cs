@@ -1,12 +1,8 @@
 ﻿using System;
 using System.Data;
 using System.Data.SqlClient;
-using TAMU.GeoInnovation.PointIntersectors.Census.Census2010;
-using USC.GISResearchLab.AddressProcessing.Core.Standardizing.StandardizedAddresses.Lines.LastLines;
 using USC.GISResearchLab.Common.Databases.QueryManagers;
 using USC.GISResearchLab.Common.Utils.Databases;
-using TAMU.GeoInnovation.PointIntersectors.Census.PointIntersecters.AbstractClasses;
-using TAMU.GeoInnovation.PointIntersectors.Census.OutputData.CensusRecords;
 
 namespace TAMU.GeoInnovation.PointIntersectors.Census.PostgreSQL.Core
 {
