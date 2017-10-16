@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Data;
 using System.Data.SqlClient;
+using TAMU.GeoInnovation.PointIntersectors.Census.OutputData.CensusRecords;
+using TAMU.GeoInnovation.PointIntersectors.Census.PointIntersecters.AbstractClasses;
 using USC.GISResearchLab.Common.Databases.QueryManagers;
 using USC.GISResearchLab.Common.Utils.Databases;
 

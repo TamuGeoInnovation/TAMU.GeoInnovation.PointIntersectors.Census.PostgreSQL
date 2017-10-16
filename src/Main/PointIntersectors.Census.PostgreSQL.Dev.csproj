@@ -155,9 +155,8 @@
       <Private>False</Private>
     </ProjectReference>
     <ProjectReference Include="..\..\..\PointIntersectors.Census\src\Main\PointIntersectors.Census.Dev.csproj">
-      <Project>{5328FADB-9D7C-410A-877E-F03E08367D9C}</Project>
+      <Project>{5328fadb-9d7c-410a-877e-f03e08367d9c}</Project>
       <Name>PointIntersectors.Census.Dev</Name>
-      <Private>False</Private>
     </ProjectReference>
     <ProjectReference Include="..\..\..\PointIntersectors.Core\src\Main\PointIntersectors.Core.Dev.csproj">
       <Project>{7e591bbb-913a-4fd9-9a8c-9fcf4a8e4c99}</Project>
