@@ -40,7 +40,7 @@ namespace TAMU.GeoInnovation.PointIntersectors.Census.PostgreSQL.Census1990
                 {
                     if (StateUtils.isState(state))
                     {
-                       
+
                         string sql = "";
                         sql += " SELECT ";
                         sql += "  st, ";
@@ -82,7 +82,7 @@ namespace TAMU.GeoInnovation.PointIntersectors.Census.PostgreSQL.Census1990
                 {
                     if (StateUtils.isState(state))
                     {
-                        
+
 
                         string sql = "";
                         //sql += " USE " + QueryManager.Connection.Database + ";" ;

@@ -12,7 +12,7 @@ namespace TAMU.GeoInnovation.PointIntersectors.Census.PostgreSQL.Census2000
 
         #region Properties
 
-        
+
         #endregion
 
         public PostgreSQLCensus2000StatesPointIntersector()
@@ -24,7 +24,7 @@ namespace TAMU.GeoInnovation.PointIntersectors.Census.PostgreSQL.Census2000
         { }
 
 
-        
+
         public override DataTable GetRecordAsDataTable(double longitude, double latitude, string state, string county, double version)
         {
             DataTable ret = null;

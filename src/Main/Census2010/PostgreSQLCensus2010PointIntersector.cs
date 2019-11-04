@@ -788,4 +788,3 @@ namespace TAMU.GeoInnovation.PointIntersectors.Census.PostgreSQL.Census2010
 
 }
 
-  

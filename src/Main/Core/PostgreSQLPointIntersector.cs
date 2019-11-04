@@ -31,7 +31,7 @@ namespace TAMU.GeoInnovation.PointIntersectors.Census.PostgreSQL.Core
         public override Object GetRecord(double longitude, double latitude, string table, string shapeField)
         {
 
-            IntersectionRecord ret =  new IntersectionRecord();
+            IntersectionRecord ret = new IntersectionRecord();
             ret.Created = DateTime.Now;
             DateTime start = DateTime.Now;
 
@@ -59,7 +59,7 @@ namespace TAMU.GeoInnovation.PointIntersectors.Census.PostgreSQL.Core
                     //cmd.Parameters.Add(SqlParameterUtils.BuildSqlParameter("test", SqlDbType.VarChar, "'POINT(" + longitude + " " + latitude + ")'"));
 
                     IQueryManager qm = ReferenceDataQueryManager;
-                   // qm.AddParameters(cmd.Parameters);
+                    // qm.AddParameters(cmd.Parameters);
                     DataTable dataTable = qm.ExecuteDataTable(CommandType.Text, cmd.CommandText, true);
 
                     if (dataTable != null && dataTable.Rows.Count > 0)
@@ -76,7 +76,7 @@ namespace TAMU.GeoInnovation.PointIntersectors.Census.PostgreSQL.Core
                             ret.FieldValues = new object[dataTable.Columns.Count];
                             ret.FieldTypes = new Type[dataTable.Columns.Count];
 
-                            for (int i=0; i< dataTable.Columns.Count; i++)
+                            for (int i = 0; i < dataTable.Columns.Count; i++)
                             {
                                 DataColumn column = dataTable.Columns[i];
 
@@ -109,7 +109,7 @@ namespace TAMU.GeoInnovation.PointIntersectors.Census.PostgreSQL.Core
 
         public override Object GetNearestRecord(double longitude, double latitude, string table, string shapeField, double maxDistance)
         {
-        
+
             DataTable ret = null;
 
             try
@@ -168,4 +168,3 @@ namespace TAMU.GeoInnovation.PointIntersectors.Census.PostgreSQL.Core
 
 }
 
-  
